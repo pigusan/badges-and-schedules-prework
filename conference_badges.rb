@@ -15,6 +15,8 @@ def assign_rooms(attendees)
   badge_messages_and_romm_assignments = []
   attendees.each_with_index do |attendee, index|
     badge_messages_and_romm_assignments.push(`Welcome #{attendee}! You'll be assigned to room #{index + 1}!`)
+  end
+  badge_messages_and_romm_assignments
 end
 
 def printer(attendees)
