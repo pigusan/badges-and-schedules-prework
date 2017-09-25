@@ -13,8 +13,8 @@ end
 
 def assign_rooms(attendees)
   badge_messages_and_romm_assignments = []
- new_array = array.each_with_index do |element, index|
-   p "#{element} is a position #{index}"
+ new_array = array.each_with_index do |attendee, index|
+   p "#{attendee} is a position #{index + 1}"
 end
 
 def printer(attendees)
